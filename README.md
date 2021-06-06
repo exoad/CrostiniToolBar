@@ -14,6 +14,8 @@ This is a simple program written in Bash to help you set your Linux Toolbar colo
 
 Enjoy!
 
+**Have any questions and/or issues? Go to the `Issues` tab**
+
 ### Credits
 
 Colors: [Colors](https://github.com/joshdick/onedark.vim)
