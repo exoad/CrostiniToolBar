@@ -97,7 +97,7 @@ then
 else 
     sudo mkdir -p ~/.config/systemd/user/sommelier-x@0.service.d
 
-    echo -e '[Service]\nEnvironment=SOMMELIER_FRAME_COLOR=$clr' > ~/.config/systemd/user/sommelier-x@0.service.d/override.conf
+    echo -e "[Service]\nEnvironment=SOMMELIER_FRAME_COLOR=$clr" > ~/.config/systemd/user/sommelier-x@0.service.d/override.conf
 
     echo "Color set to custom [$clr]. Please retart the Linux Environment for changes to take effect"
 fi
