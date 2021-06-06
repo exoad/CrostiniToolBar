@@ -1,0 +1,21 @@
+#f2f2f2 (default)
+
+Main:
+
+#92c957 (green)
+#5fa2c9 (blue)
+#d17b75 (red)
+#e8c15a (orange)
+#63c9ab (cyan)
+#1c1c1c (black)
+#636363 (gray)
+
+Secondary (Source: https://github.com/joshdick/onedark.vim):
+
+#282c34 (black)
+#E06C75 (red)
+#98c379 (green)
+#E5c07B (yellow)
+#61AFEF (blue)
+#56B6C2 (cyan)
+#ABB2BF (gray)
