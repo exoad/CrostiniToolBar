@@ -10,6 +10,7 @@ read clr;
 
 strToMatch="exit"
 
+sudo mkdir -p ~/.config/systemd/user/sommelier-x@0.service.d
 
 # #f2f2f2 (default)
 #
@@ -40,63 +41,45 @@ then
     exit
 elif [ "$clr" == "green" ] || [ "$clr" == "Green" ]
 then 
-    sudo mkdir -p ~/.config/systemd/user/sommelier-x@0.service.d
-
     echo -e '[Service]\nEnvironment="SOMMELIER_FRAME_COLOR=#98c379"' > ~/.config/systemd/user/sommelier-x@0.service.d/override.conf
 
     echo "Color set to default [green]. Please restart the Linux Environment for changes to take effect"
 elif [ "$clr" == "reset" ] || [ "$clr" == "default" ]
 then
-    sudo mkdir -p ~/.config/systemd/user/sommelier-x@0.service.d
-
     echo -e '[Service]\nEnvironment="SOMMELIER_FRAME_COLOR=#f2f2f2"' > ~/.config/systemd/user/sommelier-x@0.service.d/override.conf
 
     echo "Color set to default [reset]. Please restart the Linux Environment for changes to take effect"
 elif [ "$clr" == "cyan" ] || [ "$clr" == "Cyan" ]
 then
-    sudo mkdir -p ~/.config/systemd/user/sommelier-x@0.service.d
-
     echo -e '[Service]\nEnvironment="SOMMELIER_FRAME_COLOR=#56B6C2"' > ~/.config/systemd/user/sommelier-x@0.service.d/override.conf
 
     echo "Color set to default [cyan]. Please restart the Linux Environment for changes to take effect"
 elif [ "$clr" == "red" ] || [ "$clr" == "Red" ]
 then
-    sudo mkdir -p ~/.config/systemd/user/sommelier-x@0.service.d
-
     echo -e '[Service]\nEnvironment="SOMMELIER_FRAME_COLOR=#E06C75"' > ~/.config/systemd/user/sommelier-x@0.service.d/override.conf
 
     echo "Color set to default [red]. Please restart the Linux Environment for changes to take effect"
 elif [ "$clr" == "blue" ] || [ "$clr" == "Blue" ]
 then
-    sudo mkdir -p ~/.config/systemd/user/sommelier-x@0.service.d
-
     echo -e '[Service]\nEnvironment="SOMMELIER_FRAME_COLOR=#61AFEF"' > ~/.config/systemd/user/sommelier-x@0.service.d/override.conf
 
     echo "Color set to default [blue]. Please restart the Linux Environment for changes to take effect"
 elif [ "$clr" == "black" ] || [ "$clr" == "Black" ]
 then
-    sudo mkdir -p ~/.config/systemd/user/sommelier-x@0.service.d
-
     echo -e '[Service]\nEnvironment="SOMMELIER_FRAME_COLOR=#282c34"' > ~/.config/systemd/user/sommelier-x@0.service.d/override.conf
 
     echo "Color set to default [black]. Please restart the Linux Environment for changes to take effect"
 elif [ "$clr" == "yellow" ] || [ "$clr" == "Yellow" ]
 then
-    sudo mkdir -p ~/.config/systemd/user/sommelier-x@0.service.d
-
     echo -e '[Service]\nEnvironment="SOMMELIER_FRAME_COLOR=#E5c07B"' > ~/.config/systemd/user/sommelier-x@0.service.d/override.conf
 
     echo "Color set to default [yellow]. Please restart the Linux Environment for changes to take effect"
 elif [ "$clr" == "gray" ] || [ "$clr" == "Gray" ]
 then
-    sudo mkdir -p ~/.config/systemd/user/sommelier-x@0.service.d
-
     echo -e '[Service]\nEnvironment="SOMMELIER_FRAME_COLOR=#ABB2BF"' > ~/.config/systemd/user/sommelier-x@0.service.d/override.conf
 
     echo "Color set to default [gray]. Please restart the Linux Environment for changes to take effect"
 else 
-    sudo mkdir -p ~/.config/systemd/user/sommelier-x@0.service.d
-
     echo -e "[Service]\nEnvironment=SOMMELIER_FRAME_COLOR=$clr" > ~/.config/systemd/user/sommelier-x@0.service.d/override.conf
 
     echo "Color set to custom [$clr]. Please retart the Linux Environment for changes to take effect"
