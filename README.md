@@ -1,6 +1,8 @@
 # Linux Toolbar Colors
 This is a simple program written in Bash to help you set your Linux Toolbar color. This mostly works for Linux environments which supports this action.
 
+This is for the Crostini ChromeOS Environment. This may or may not work.
+
 ### How to use
 1. Download the file
 
